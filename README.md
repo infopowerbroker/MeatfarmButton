@@ -18,10 +18,10 @@ git checkout https://github.com/infopowerbroker/MeatfarmButton.git release
 
 How do I Configure It?
 -------------
-open the script in Notepad and update the section for your character. Update 'ChangeMe' to your character name, and 'ScriptName.ash' to the script you want to run when you click the button. If you have multiple characters, you will have multiplse cases/sections.
+open the script in Notepad and update the section for your character. Update 'changeme' to your character name (in lowercase, NO CAPS), and 'ScriptName.ash' to the script you want to run when you click the button. If you have multiple characters, you will have multiplse cases/sections.
 
 <pre>
-case "ChangeMe":
+case "changeme":
 		print("starting garbo for CharacterName");
 		cli_execute("ScriptName.ash");
 		break;
