@@ -1,12 +1,12 @@
-switch(my_name())
+switch(to_lower_case(my_name()))
 {
-	//update "ChangeMe" to the name of a character and update the script name to be the preferred script.
-	case "ChangeMe":
+	//update "ChangeMe" to the lower case name of a character (NO CAPS) and update the script name to be the preferred script.
+	case "changeme":
 		print("starting garbo for CharacterName");
 		cli_execute("ScriptName.ash");
 		break;
-	//update "ChangeMe2" to the name of a second character and update the script name to be the preferred script.
-	case "ChangeMe2":
+	//update "ChangeMe2" to the lower case name of a secpmd character (NO CAPS) and update the script name to be the preferred script.
+	case "changeme2":
 		print("starting ami_wrapper for ChangeMe2");
 		cli_execute("ScriptName.ash");
 		break;
