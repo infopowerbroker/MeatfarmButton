@@ -13,7 +13,7 @@ How do I Get it?
 First, install it by running this command in KoLmafia's graphical CLI:
 
 <pre>
-git checkout https://github.com/infopowerbroker/MeatfarmButton.git release
+git checkout infopowerbroker/MeatfarmButton release
 </pre>
 
 How do I Configure It?
